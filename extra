@@ -1,0 +1,100 @@
+https://code.visualstudio.com/download (install)
+https://github.com/ (create account)
+https://git-scm.com/downloads (install)
+https://nodejs.org/en/ (install)
+
+//extensions in vs code
+> vscode-icons
+> TabNine
+> GitLens
+> GitHistory
+
+html/html5      > Raw Structure
+css/CSS3        > Design (look & feel)
+bootstrap3/4/5  > Responsive (fit on all screen)
+javascript      > Add Logics
+
+> DataTypes
+> variable
+> alert console prompt
+> Operations
+> String Operations
+> String literals
+> Math
+> localstorage
+> sessionStorage
+> cookies
+> let, const
+> github 
+> condition
+> if else
+> ternary Operations
+> Date
+> switch
+> array
+> loops
+> Rest
+> Functions
+> spread
+> Es6
+    > maps,filter
+> regex
+> destructuring
+> Closures
+> Hoisting
+> object 
+> JSON
+> Es6
+    > Transpile
+    > import export
+> package.JSON
+> npm
+> this
+> Es6
+    > classes
+> Prototypes
+> DoM
+> Calc
+> Form validation
+> Event
+> dummyAPi jsonserver 
+> dark/light mode
+> currenyConvertor
+> promis
+> async await
+> screen
+> Geolocation
+> Dynamic DropDown
+> set interval
+> set timeout
+> debouncing
+> Progress bar
+> Call/Apply
+> Basic Jquery
+> Weather application
+> ajax
+> DataTables
+> sets
+> fabonicci
+> factorial
+> palindrome
+
+html > main tag of the page
+head > all the linking (css,javascript)/ css/ javascript
+     > thing that is not visible to the user expect title
+body > all the thing visible to the user will be in the body
+     
+inline  
+>> They Start from same line
+>> only occupy space that is required
+>> span, a, img
+
+block level
+>> always start from new line
+>> always occupy complete width
+>> p,div,section
+
+src> source
+href> hyper reference
+alt > alternative
+rel > related to
