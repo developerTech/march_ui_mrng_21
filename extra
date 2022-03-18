@@ -98,3 +98,36 @@ src> source
 href> hyper reference
 alt > alternative
 rel > related to
+
+
+//////
+inline
+styletag
+stylesheet
+
+inline > styletag > stylesheet
+
+inline{
+    color:red,
+    font-size:20px
+}
+
+styletag{
+    color:orange,
+    border:2px solid black,
+    font-family:'Times new Roman',
+}
+
+stylesheet{
+    color:green
+    font-size:30px;
+    background-color:red
+}
+
+{
+    color:red,
+    font-size:20px,
+    border:2px solid black,
+    font-family:'Times new Roman',
+    background-color:red
+}
