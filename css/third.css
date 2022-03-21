@@ -1,0 +1,33 @@
+.card{
+    height:400px;
+    width:20%;
+    background-color:olive;
+    float:left;
+    margin-left:4%;
+    overflow: scroll;
+    color:white
+}
+#heading{
+    text-align: center;
+    color:olive
+}
+footer{
+    color:orangered;
+    text-align: center;
+}
+.card > img {
+    height:200px;
+    width:100%
+}
+
+.textContainer{
+    height:200px;
+    width:100%
+}
+
+.textContainer > h2 {
+    text-align: center;
+}
+#mainContainer{
+    display:inline-block;
+}

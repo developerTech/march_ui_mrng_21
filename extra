@@ -131,3 +131,12 @@ stylesheet{
     font-family:'Times new Roman',
     background-color:red
 }
+
+////////
+class (.)
+> when we have to target multiple element with same property
+
+id (#)
+> when we have to target unique element
+
+> tagName (h1)
