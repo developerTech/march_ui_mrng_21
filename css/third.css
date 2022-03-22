@@ -1,12 +1,26 @@
 .card{
     height:400px;
     width:20%;
-    background-color:olive;
+    background-color:#205f83;
     float:left;
     margin-left:4%;
     overflow: scroll;
     color:white
 }
+
+.purple{
+    background-color:#532b23;
+}
+
+#blue{
+    background-color:#665846;
+}
+
+#green{
+    background-color:#2b6b96
+}
+
+
 #heading{
     text-align: center;
     color:olive
