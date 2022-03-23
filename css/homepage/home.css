@@ -7,7 +7,7 @@ a{
 #header{
     width:100%;
     height:60px;
-    background-color:rgb(224, 164, 95)
+    background-color:#da7141
 }
 
 #icon{
@@ -28,7 +28,53 @@ a{
 #search{
     width:100%;
     height:400px;
-    border:5px dotted green
+    background-image: url('image/food-wallpaper.png');
+    background-repeat: no-repeat;
+    /* background-size:cover; */
+    background-size: 100% 400px;
+}
+
+#logo{
+    height:150px;
+    width:150px;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 45%;
+
+}
+
+#logo>span{
+    font-size: 80px;
+    padding-top: 17%;
+    position: absolute;
+    padding-left: 23%;
+}
+
+#heading{
+    position: absolute;
+    font-size:50px;
+    color:white;
+    margin-left:32%;
+    margin-top:14%;
+}
+
+.dropdown{
+    height:60px;
+    width:50%;
+    margin-left: 27%;
+    margin-top: 21%;
+    position: absolute;
+}
+select{
+    height:60px;
+    width:40%;
+    font-size:20px;
+    text-align: center; 
+}
+.restSelect{
+    width:59%;
 }
 
 /* quickSearch */
