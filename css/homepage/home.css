@@ -79,9 +79,34 @@ select{
 
 /* quickSearch */
 #quickSearch{
-    width:100%;
+    width:80%;
     height:600px;
-    border:5px double red
+    margin-left:10%;
+    margin-top: 2%;
+}
+
+#quickHeading{
+    font-size:30px;
+    color:#da7141;
+    display: block;
+    font-weight: bold;
+    margin-left: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#quickSubHeading{
+    font-size:20px;
+    color:gray;
+    line-height: 2;
+    margin-left: 2%;
+}
+
+.tileContainer{
+    width:30%;
+    height:200px;
+    border: 2px solid red;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
 }
 
 /* footer */
