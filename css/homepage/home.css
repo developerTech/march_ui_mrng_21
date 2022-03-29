@@ -159,3 +159,36 @@ select{
 ul{
     list-style-type: none;
 }
+
+@media screen and (max-width:1600px){
+    body{
+        background-color: lightblue;
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color: rgb(238, 177, 247);
+    }
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color: rgb(233, 245, 180);
+    }
+}
+@media screen and (max-width:1000px){
+    body{
+        background-color: rgb(186, 245, 180);
+    }
+}
+@media screen and (max-width:800px){
+    body{
+        background-color: rgb(246, 200, 181);
+    }
+}
+@media screen and (max-width:600px){
+    body{
+        background-color: rgb(243, 137, 137);
+    }
+}
