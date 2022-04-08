@@ -142,6 +142,7 @@ b.toString().replace(/,/,'')
 b.toString().replace(/,/g,'')
 'JavaScript'
 
+b.toString().replace(/\./g,'')
 
 var a = 10
 a.toString()
