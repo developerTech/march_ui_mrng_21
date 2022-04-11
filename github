@@ -14,5 +14,16 @@ git push
 //clone
 
 git clone https://github.com/Aakashdeveloper/userProfile
+git pull
+
+//////
+git checkout -b branchname
+
+git add .
+git commit -m "code"
+git push -u origin branchname
+
+
+git status
 
 git pull
