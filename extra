@@ -28,17 +28,18 @@ javascript      > Add Logics
 > cookies
 > let, const
 > github 
-//////////////////////////////
 > condition
 > if else
 > ternary Operations
 > Date
 > switch
+//////////////////////////////
 > array
 > loops
 > Rest
 > Functions
 > spread
+
 > Es6
     > maps,filter
 > regex
@@ -81,6 +82,7 @@ javascript      > Add Logics
 > fabonicci
 > factorial
 > palindrome
+> tictactogame
 
 html > main tag of the page
 head > all the linking (css,javascript)/ css/ javascript
