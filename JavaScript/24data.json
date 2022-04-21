@@ -1,0 +1,12 @@
+[
+    {
+        "name":"Avenger",
+        "rating":4.5,
+        "ind":"Hollywood"
+    },
+    {
+        "name":"Jab We Met",
+        "rating":4.8,
+        "ind":"Bollywood"
+    }
+]

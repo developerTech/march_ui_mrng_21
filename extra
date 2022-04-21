@@ -44,21 +44,21 @@ javascript      > Add Logics
 > Closures
 > Hoisting
 > destructuring
-
-//////////////////////////////
 > object 
 > JSON
 > Es6
-    > Transpile
     > import export
 
+//////////////////////////////
+> Transpile
 > package.JSON
 > npm
-> this
 
+> this
 > Es6
     > classes
 > Prototypes
+
 > DoM
 > Calc
 > Form validation
