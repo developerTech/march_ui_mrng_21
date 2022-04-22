@@ -2,7 +2,17 @@
     {
         "name":"Avenger",
         "rating":4.5,
-        "ind":"Hollywood"
+        "ind":"Hollywood",
+        "address":[
+            {
+                "city":"Delhi",
+                "colony":"abc"
+            },
+            { 
+                "city":"Mumbai",
+                "colony":"xyz"
+            }
+        ]
     },
     {
         "name":"Jab We Met",
