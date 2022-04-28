@@ -1,0 +1,24 @@
+{
+  "employee": [
+    {
+      "eid": "EAZ535741",
+      "fname": "Nikita",
+      "lname": "Sharma",
+      "email": "nikita@gmail.com",
+      "password": "12345678",
+      "cpassword": "12345678",
+      "city": "1",
+      "id": 1
+    },
+    {
+      "eid": "EAZ635951",
+      "fname": "Aakash",
+      "lname": "Handa",
+      "email": "aakash@gmail.com",
+      "password": "12345678",
+      "cpassword": "12345678",
+      "city": "3",
+      "id": 2
+    }
+  ]
+}

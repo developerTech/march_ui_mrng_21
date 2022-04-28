@@ -14,7 +14,7 @@
                     Employee Form
                 </div>
                 <div class="panel-body">
-                    <form action="" method="">
+                    <form action="http://localhost:8900/employee" method="POST">
                         <div class="form-group">
                             <label class="control-label" for="eid">Employee Id</label>
                             <input class="form-control" name="eid" id="eid" readonly/>
@@ -22,31 +22,55 @@
                         <div class="form-group" id="fdiv">
                             <label class="control-label" for="firstname">First Name</label>
                             <input class="form-control" name="fname" id="firstname"
-                            placeholder="First Name" onblur="validateFname()"/>
+                            placeholder="First Name" onblur="validateFname()"
+                            value="Nikita"/>
                             <p id="fout"></p>
                         </div>
                         <div class="form-group">
                             <label class="control-label" for="lastname">Last Name</label>
-                            <input class="form-control" name="fname" id="lastname"
-                            placeholder="Last Name" required value="Thomas"/>
+                            <input class="form-control" name="lname" id="lastname"
+                            placeholder="Last Name" required
+                            value="Sharma"/>
                         </div>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label class="control-label" for="email">Email</label>
                                     <input class="form-control" name="email" id="email"
-                                    placeholder="a@a.com"/>
+                                    placeholder="a@a.com" oninput="validateEmail()"
+                                    value="nikita@gmail.com"/>
                                     <p id="eout"></p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label class="control-label" for="password">Password</label>
-                                    <input class="form-control" name="password" id="password"
-                                    placeholder="a@a.com"/>
+                                    <input class="form-control" name="password" id="password" type="password" oninput="validatePassword()" value="12345678"/>
+                                    <span class="glyphicon glyphicon-eye-open" onclick="showPassword()">
+                                    </span>
                                 </div>
                                 <p id="pout"></p>
                                 <div id="ppout"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="control-label" for="password">Confirm Password</label>
+                                    <input class="form-control" name="cpassword" id="cpassword" type="password" oninput="validateCPassword()" value="12345678"/>
+                                </div>
+                                <p id="cpout"></p>
+                            </div>
+                            
+                            <div class="col-md-6">
+                               <label for="city">City</label>
+                               <select class="form-control" name="city" id="city"
+                               onChange="getCity()">
+                                   <option value="1">Delhi</option>
+                                   <option value="2">London</option>
+                                   <option value="3">Amsterdam</option>
+                               </select>
+                               <span id="cityOut"></span>
                             </div>
                         </div>
                         <button type="submit" class="btn btn-success">Sumbit</button>

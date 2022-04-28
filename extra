@@ -58,11 +58,10 @@ javascript      > Add Logics
 > DoM
 > Calc
 > dark/light mode
-//////////////////////////////
 > Form validation
 > Event
 > dummyAPi jsonserver 
-
+//////////////////////////////
 > currenyConvertor
 > promis
 > async await
@@ -199,3 +198,5 @@ https://raw.githubusercontent.com/Aakashdeveloper/Aakashdeveloper/master/README.
 
 
 npm i @babel/core @babel/preset-env @babel/register
+
+npx json-server --watch data.json --port 8900
