@@ -27,3 +27,4 @@ git push -u origin branchname
 git status
 
 git pull
+merge code
